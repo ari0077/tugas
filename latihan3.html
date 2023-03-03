@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table align="center">
+    <thead>
+
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>link</legend>
+                    <ul>
+                        <li><a href="latihan1.html">home</a></li>
+                        <li><a href="latihan2.html" target="_blank">biodata</a></li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+    </thead>
+    
+        
+    </tbody>
+    <tr>
+        <td>
+    <fieldset>
+    <form >
+        <table border="0" align="center" cellpadding="10" width="30%">
+            <thead>
+                <tr bgcolor="green">
+                    <th colspan="2">latihan membuat form</th>
+                </tr>
+            </thead>
+            <!--tfoot walaupun kodingan ada ditengah tetapi tampilan akan tetap dibawah-->
+            <tfoot>
+                <tr>
+                    <th>
+                        <input type="submit">
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                <td>
+                    <!--inputan nama dengan menggunakan type text-->
+                    <label>nama</label>
+                </td>
+                <td>
+                    <input type="text" name="nama" value=""
+                    placeholder="silahkan masukan nama" size="50" width="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" value=""
+                    placeholder="masukan email" size="50" width="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="L" checked> laki-laki &nbsp;&nbsp;
+                    <input type="radio" name="gender" value="P" > perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>hobby</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobby" value="Menulis">Menulis<br>
+                    <input type="checkbox" name="hobby" value="Membaca">Membaca<br>
+                    <input type="checkbox" name="hobby" value="makan">makan<br>
+                    <input type="checkbox" name="hobby" value="kuliner">kuliner<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>pendidikan</label>
+                    <td>
+                        <select name="pendidikan">
+                            <option>------pilih pendidikan-----</option>
+                            <option value="SMA">sma</option>
+                            <option value="d2">d2</option>
+                            <option value="d3">d3</option>
+                            <option value="s1">s1</option>
+                        </select>
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label>alamat</label></td>
+                <td>
+                    <textarea name="alamat"  cols="30" rows="5" placeholder="tuliskan alamat">tuliskan alamat</textarea>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    </form>
+</td>
+</tr>
+
+</table>
+</body>
+</html>

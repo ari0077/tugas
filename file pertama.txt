@@ -1,0 +1,11 @@
+rincian materi pelatihan
+1. html dan css
+1. web design 
+2. js
+3. github
+4. php
+5. mysql
+6. php dan mysql
+7. laravel
+8. rest api
+9. final project

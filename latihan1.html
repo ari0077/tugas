@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="css/hiasan.css">
+
+
+</head>
+
+<style type="text/css"> 
+/* css internal adalah css yg ada didalam html */
+/* ini contoh selector tag*/
+    p{
+        color: white;
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15pt;
+        text-transform: uppercase;
+    }
+
+    body{
+        background-color: darkviolet;
+    }
+    /*grouping*/
+    fieldset, legend{
+        border: red groove 10px;
+    }
+
+    .ubahwarna {
+        color: orange;
+    }
+</style>
+<body>
+    <!-- ini adalah contoh tag dan element
+    yg tidak pake atribut nilai-->
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>link</legend>
+                        <div id="menu">
+                            <li><a href="latihan1.html">home</a></li>
+                            <li><a href="latihan2.html" target="_blank" class="item">biodata</a></li>
+                        </div>
+                    </fieldset>
+                </td>
+            </tr>
+        </thead>
+    <tbody>
+    <tr>    
+        <td>
+    <h1 style="font-size: large; color: aqua;">
+        <marquee direction="right" scrolldelay="100">
+            Welcome To My Landing Page
+        </marquee>
+    </h1>
+    <!--ini adalah pemanggilan gambar dari internet-->
+    <img src="https://sgp1.digitaloceanspaces.com/radarbogor/2022/10/GettyImages-1432161997-1024x576.jpg" width="10%" align="left" hspace="10">
+   <!--ini adalah pemanggilan gambar dari lokal -->
+   <img src="img/foto.jpg" width="10%" align="left" hspace="10">
+   <p align="justify">
+        Ini Adalah Website Pertama Saya menggunakan html
+        With Microsoft Azure you can deploy and host your React,
+         Angular, Vue, Node, Python (and more!) sites, store and query relational 
+         and document based data, and scale with serverless computing, all with ease,
+          all from within VS Code.
+    </p>
+    <!--ini adalah css inline-->
+    <p style="color: aqua; text-align: center; font-family: 'Courier New', Courier, monospace;">
+        Ini Adalah Website Pertama Saya menggunakan html
+        With Microsoft Azure you can deploy and host your React,
+         Angular, Vue, Node, Python (and more!) sites, store and query relational 
+         and document based data, and scale with serverless computing, all with ease,
+          all from within VS Code.
+    </p>
+
+    <p>
+        Ini Adalah Website Pertama Saya menggunakan html
+        With Microsoft Azure you can deploy and host your React,
+         Angular, Vue, Node, Python (and more!) sites, store and query relational 
+         and document based data, and scale with serverless computing, all with ease,
+          all from within VS Code.
+    </p>
+    <fieldset>
+        <legend>
+        <font color="white" size="5" face="calibri">
+            Tentang saya
+        </font>
+    </legend>
+    <ol type="A">
+        <li class="menu">pendidikan
+            <ul type="square">
+                <li>SD 01</li>
+                <li>SMP 02</li>
+                <li>SMA 03</li>
+                <li>Universitas
+                    <ol type="1">
+                    <li>Semester 1</li>
+                    <li>Semester 2</li>
+                    <li>Semester 3</li>
+                </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Hobby
+            <ul type="circle">
+                <li>Olahraga</li>
+                <li>Menulis</li>
+                <li>Membaca</li>
+            </ul>
+        </li>
+        <li>Makanan Kesukaan</li>
+        <ul type="disc">
+            <li>Nasi Goreng</li>
+            <li>Ayam Goreng</li>
+        </ul>
+    </ol>
+    </fieldset>
+</table>
+</td>
+</tr>
+
+</tbody>
+</body>
+</html>
